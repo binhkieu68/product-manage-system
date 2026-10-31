@@ -1,0 +1,20 @@
+{
+  "name": "product-manage-system",
+  "version": "1.0.0",
+  "description": "Product management module - REST API + website (Express, MongoDB, EJS, Bootstrap)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1",
+    "ejs": "^3.1.10",
+    "method-override": "^3.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
